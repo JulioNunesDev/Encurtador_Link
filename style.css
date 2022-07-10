@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.content{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.context-main{
+    margin: 0 auto;
+    width: 70%;
+    height: 40%;
+    border-radius: 8px;
+    background-color: #fafafa;
+    box-shadow: 5px 5px 32px 5px rgba(0,0,0,0.28);
+    transition: 0.2s ease-in;
+    
+}
+.context-main:hover{
+    
+    box-shadow: 5px 5px 32px 5px rgba(0,0,0,0.58);
+}
+
+.box{
+    width: 100%;
+    height: 20%;
+    position: relative;
+    margin-top: 75px;
+    text-align: center;
+
+ 
+}
+
+.box input{
+    border: 0;
+    border-bottom: 2px solid rgb(21, 21, 34);
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    background-color: transparent;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.btn{
+   width: 100%;
+   margin-top: 30px;
+   display: flex;
+   justify-content: center;
+}
+
+.btn button{
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    background-color: #0093E9;
+    padding: 15px 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    box-shadow: 2px 2px 25px 2px rgba(0, 0, 0, 0.293);
+    transition: 0.2s ease-in-out;
+    color: white;
+}
+
+.btn button:hover{
+    box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.421);
+    background-color: #0682ca;
+}
+
+.url{
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    justify-content: center;
+    border: 2px dashed #ccc;
+}
+
+.url > span {
+  
+    width: 50%;
+    height: 100%;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+
+}
